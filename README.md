@@ -7,9 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Tugas ini dibuat menggunakan laravel breze ,laravel socialite ,Laravel Fortify dengan laravel 10 
+fitur 
+login with google
+login with github
+2fa Autentikasi
+
+untuk database bisa menggunakan nama ini
+nama database : blogabc 
+
+Tools yang Digunakan 
+-Laragon
+
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
