@@ -13,9 +13,8 @@ class WelcomeController extends Controller
     public function index($id = null)
     {
           // Ambil post pertama dari database
-          $post = Post::first();
 
-          return view('welcome', compact('post'));
+          return view('welcome');
     }
 
     /**
