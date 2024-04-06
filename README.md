@@ -13,6 +13,7 @@ Tugas ini dibuat menggunakan laravel breze ,laravel socialite ,Laravel Fortify d
 fitur 
 login with google
 login with github
+simple blog
 2fa Autentikasi
 
 untuk database bisa menggunakan nama ini
