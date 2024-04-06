@@ -8,11 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'content', 'category_id'];
+    protected $fillable = [
+        'title',
+        'content',
+        'featured_image',
+    ];
 
-    public function category()
+    public function categories()
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsToMany(Category::class);
     }
 
     public function tags()
@@ -24,4 +28,9 @@ class Post extends Model
     {
         return $this->hasMany(Comment::class);
     }
+    public function index($id)
+{
+    $post = Post::findOrFail($id);
+    return view('welcome', compact('post'));
+}
 }
